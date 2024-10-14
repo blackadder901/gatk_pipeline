@@ -29,6 +29,8 @@ Moreover, the user is required to download the following necessary files:
 
 These files are needed for aligning the paired reads to the reference genomes and they should also be placed in the data directory.
 
+**Important: Please do not click the download button for the aforemenioned links. Use the Public URL!!**
+
 ## Installation
 The best way to install the pipeline is to clone this GitHub repository. The pipeline uses the Conda package manager to deploy the defined software packages in the specified version without requiring admin or root privileges.
 
@@ -80,7 +82,7 @@ Prefect provides a variety of options for workflow execution and orchestration. 
     By doing that the user will be able to access the prefect GUI by opening the prefect dashboard link (http://127.0.0.1:"port"). Then open another terminal window, activate the gatk_pipeline env again, and execute the pipeline by running:
     
 2.  ```{bash}
-    python3 run_gatk_pipe.py --fastq1 "first_file" --fastq2 "second_file" --ref_genome "ref_genome" --out_vcf "output_vcf" --threads "number of threads"
+    python3 run_gatk_pipe.py --fastq1 data/H72U2ADXX-2-ID02_1.fastq.gz --fastq2 data/H72U2ADXX-2-ID02_2.fastq.gz --ref_genome data/Homo_sapiens_assembly38.fasta --out_vcf gatk_pipe.vcf --threads 6
     ```
 
 
