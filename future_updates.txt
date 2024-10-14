@@ -1,0 +1,15 @@
+Hello!
+
+I hope you were able to donwload, install and run the tool I created!
+
+Some notes for future updates:
+
+- I believed that hardcoding a number of file names (reference_genome, SAM, BAM..) was the right thing to do but apparently that maybe was a mistake from my side, because make the pipeline less flexible. I need to change that in the future.
+
+- I noticed last minute that I should have created some more safety cases. Sometimes when files are not valid in the right form like SAM and BAM, the tool complains.
+
+- Become better in creating tests
+
+- Tests, tests, tests, tests ....  
+
+Niki
