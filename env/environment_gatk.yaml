@@ -1,0 +1,11 @@
+name: gatk_pipeline
+channels:
+  - conda-forge
+  - bioconda
+  - default
+dependencies:
+  - prefect=3.0.4
+  - gatk4=4.5.0.0
+  - fastqc=0.12.1
+  - bwa=0.7.18
+  - samtools=1.21
