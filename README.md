@@ -42,24 +42,6 @@ In order for someone to use this pipeline they will need to install Micromamba, 
 
 * [``` Micromamba ```](https://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html): contains all the necessary guidelines for installing the package manager
 
-Execute the following commands:
-
-```{bash}
-curl -Ls https://micro.mamba.pm/api/micromamba/linux-64/latest | tar -xvj bin/micromamba
-```
-```{bash}
-export MAMBA_ROOT_PREFIX=/some/prefix  # optional, defaults to ~/micromamba
-```
-```{bash}
-eval "$(./bin/micromamba shell hook -s posix)"
-```
-```{bash}
-./bin/micromamba shell init -s bash -r ~/micromamba
-```
-```{bash}
-source ~/.bashrc
-```
-
 ## Usage
 
 The user initially will have to create the provided environment that contains the software packages needed to run the pipeline. (All the tools are specified in the .env file placed in the env dir)
