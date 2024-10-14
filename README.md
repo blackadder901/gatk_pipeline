@@ -80,7 +80,7 @@ Prefect provides a variety of options for workflow execution and orchestration. 
     By doing that the user will be able to access the prefect GUI by opening the prefect dashboard link (http://127.0.0.1:"port"). Then open another terminal window, activate the gatk_pipeline env again, and execute the pipeline by running:
     
 2.  ```{bash}
-    python3 run_gatk_pipe.py --fastq1 "name_of_first_file" --fastq2 "name_of_second_file" --ref_genome "ref_genome" --out_vcf "name_of_output_vcf" --threads "number of threads"
+    python3 run_gatk_pipe.py --fastq1 "first_file" --fastq2 "second_file" --ref_genome "ref_genome" --out_vcf "output_vcf" --threads "number of threads"
     ```
 
 
